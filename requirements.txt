@@ -1,0 +1,6 @@
+# Core guardrail library uses only the Python standard library.
+# Optional extras:
+fastapi>=0.110        # HTTP API (app/server.py)
+uvicorn>=0.29         # ASGI server
+anthropic>=0.40       # real LLM backend (guardrail/llm/anthropic_client.py)
+pytest>=8.0           # optional, tests also run with `python -m unittest`
